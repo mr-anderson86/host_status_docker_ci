@@ -1,4 +1,4 @@
 FROM node:6.11.4
 EXPOSE 8080
-COPY example.js .
-CMD node example.js
+COPY host_status.js .
+CMD ["node", "host_status.js"]
