@@ -1,1 +1,1 @@
-# k8s_docker_ci
+# This is an example for docker image which runs a simple NodeJS app.
