@@ -59,6 +59,7 @@ var handleRequest = function(request, response) {
   response.end('\n');
 };
 var www = http.createServer(handleRequest);
-www.listen(8080);
+var port = 8000
+www.listen(port);
 console.log('Started NodeJS application on host: ' + os.hostname());
-console.log('Listening on port: 8080')
+console.log('Listening on port: '+port)
